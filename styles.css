@@ -6,8 +6,6 @@
   --accent-dark: #4e2419;
   --card: #fffdf8;
   --line: #e3dacb;
-  --todo-bg: #fff6d8;
-  --todo-line: #e2c56a;
   --max: 40rem;
 }
 
@@ -158,19 +156,6 @@ li {
   font-family: "Avenir Next", "Segoe UI", sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
-}
-
-.todo {
-  margin-top: 1rem;
-  padding: 0.85rem 1rem;
-  background: var(--todo-bg);
-  border: 1px solid var(--todo-line);
-  border-radius: 0.5rem;
-}
-
-.todo strong {
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  letter-spacing: 0.04em;
 }
 
 dl {
